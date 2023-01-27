@@ -156,6 +156,8 @@ h1{
 }
 .iconos-contenedor{
    display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .iconos-contenedor i{
    color: white;
@@ -190,8 +192,15 @@ h1{
 }
 .personalizada{
    padding-top: 6rem;
+   padding-bottom: 3rem ;
 }
-.icon-footer{
+
+.copy{
+   color: black;
+   font-size: 0.9rem;
+   opacity: 0.7;
+}
+/* .icon-footer{
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -205,7 +214,7 @@ h1{
 .icon-footer  a:hover{
    opacity: 0.2;
    
-}
+} */
 
 
 /* Responsive Web Design */
